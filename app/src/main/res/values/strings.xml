@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Screen Time Reducer</string>
+    <string name="accessibility_service_label">Screen Time Reducer — App Delay</string>
+    <string name="accessibility_service_description">Detects when a watched app is opened and shows a brief mindful pause before launching it. Used only for the App Delay and Focus Mode features. No data leaves your device.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Reclaim your attention</string>
+    <string name="onboarding_welcome_body">Reduce screen time gently — no aggressive blocking, just calm, mindful pauses.</string>
+    <string name="onboarding_delay_title">Pause before you scroll</string>
+    <string name="onboarding_delay_body">A 5-second mindful moment before distracting apps open helps break the impulse.</string>
+    <string name="onboarding_focus_title">Focus when it matters</string>
+    <string name="onboarding_focus_body">Work, study, and sleep modes keep distractions out of the way.</string>
+    <string name="onboarding_permissions_title">A few permissions</string>
+    <string name="onboarding_permissions_body">We need access to your usage stats, accessibility, overlays, and notifications. Everything runs locally on your device.</string>
+    <string name="onboarding_get_started">Get started</string>
+    <string name="onboarding_continue">Continue</string>
+    <string name="onboarding_skip">Skip</string>
+
+    <!-- Bottom nav -->
+    <string name="nav_dashboard">Home</string>
+    <string name="nav_focus">Focus</string>
+    <string name="nav_limits">Limits</string>
+    <string name="nav_challenges">Challenges</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Delay screen -->
+    <string name="delay_title">Take a breath</string>
+    <string name="delay_question">Do you really want to open %1$s?</string>
+    <string name="delay_open">Open anyway</string>
+    <string name="delay_cancel">Not now</string>
+
+    <!-- Permissions -->
+    <string name="perm_usage_title">Usage Access</string>
+    <string name="perm_usage_body">Lets us calculate your screen time and which apps you use most.</string>
+    <string name="perm_accessibility_title">Accessibility</string>
+    <string name="perm_accessibility_body">Required to detect app launches and trigger the mindful delay screen.</string>
+    <string name="perm_overlay_title">Display over other apps</string>
+    <string name="perm_overlay_body">Used to show the delay screen on top of other apps.</string>
+    <string name="perm_notifications_title">Notifications</string>
+    <string name="perm_notifications_body">Daily reminders, focus session updates, and challenge progress.</string>
+    <string name="perm_grant">Grant</string>
+    <string name="perm_granted">Granted</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_today">Today</string>
+    <string name="dashboard_total_time">Screen time</string>
+    <string name="dashboard_unlocks">Unlocks</string>
+    <string name="dashboard_avg_session">Avg. session</string>
+    <string name="dashboard_top_apps">Most used apps</string>
+    <string name="dashboard_hourly">Hourly usage</string>
+    <string name="dashboard_weekly_trend">This week</string>
+    <string name="dashboard_no_data">No data yet — grant Usage Access to get started.</string>
+
+    <!-- Focus -->
+    <string name="focus_title">Focus mode</string>
+    <string name="focus_start">Start</string>
+    <string name="focus_stop">End session</string>
+    <string name="focus_streak">%1$d day streak</string>
+    <string name="focus_mode_work">Work</string>
+    <string name="focus_mode_study">Study</string>
+    <string name="focus_mode_sleep">Sleep</string>
+    <string name="focus_mode_custom">Custom</string>
+    <string name="focus_blocked_message">%1$s is blocked during focus.</string>
+
+    <!-- Limits -->
+    <string name="limits_title">Daily limits</string>
+    <string name="limits_empty">No limits set. Tap + to add one.</string>
+    <string name="limit_continue">Continue anyway</string>
+    <string name="limit_take_break">Take a break</string>
+    <string name="limit_remaining">%1$s remaining</string>
+
+    <!-- Challenges -->
+    <string name="challenges_title">Challenges</string>
+    <string name="challenges_xp">%1$d XP</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_dark">Dark mode</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_export">Export stats</string>
+    <string name="settings_backup">Backup &amp; restore</string>
+    <string name="settings_subscription">Manage subscription</string>
+    <string name="settings_privacy">Privacy policy</string>
+    <string name="settings_about">About</string>
+
+    <!-- Widget -->
+    <string name="widget_screen_time">Today</string>
+    <string name="widget_unlocks_label">Unlocks</string>
+    <string name="widget_focus_label">Focus</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_focus">Focus sessions</string>
+    <string name="notif_channel_reminders">Reminders</string>
+    <string name="notif_focus_title">Focus mode active</string>
+    <string name="notif_focus_body">%1$s mode — distracting apps are paused.</string>
+
+    <!-- Accessibility-required banner -->
+    <string name="accessibility_required_title">Accessibility access is off</string>
+    <string name="accessibility_required_body">Without it, app pauses and limits cannot block any apps. Android sometimes turns this off automatically.</string>
+    <string name="accessibility_required_action">Turn on</string>
+</resources>
